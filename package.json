@@ -1,0 +1,25 @@
+{
+  "name": "capstone3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msjoy101/capstone3_janaban.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msjoy101/capstone3_janaban/issues"
+  },
+  "homepage": "https://github.com/msjoy101/capstone3_janaban#readme"
+}
