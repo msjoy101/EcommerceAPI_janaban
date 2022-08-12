@@ -24,7 +24,7 @@ const data = {
       name: 'Angelito Quiambao',
       email: 'angelito.quiambao@tuitt.com',
       password: bcrypt.hashSync('angelito123'),
-      isAdmin: false,
+      isAdmin: true,
     },
   ],
 
